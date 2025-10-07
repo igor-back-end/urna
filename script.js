@@ -45,6 +45,7 @@ function detalhes() {
         alert('Eleição ainda não iniciada!');
         return;
     }
+
     if (!(quantidade_eleitores == votos)) {
         alert('Eleição ainda não terminou!');
         return;
@@ -58,11 +59,11 @@ function reiniciar() {
     let confirmacao = confirm('Tem certeza que deseja reiniciar a eleição?');
 
     if (confirmacao) {
-        let codigo = prompt('Digite o código "722-488" para confirmar reinicialização');
-        if (codigo === '722-488') {
+        let codigo = prompt('Digite "CONFIRMAR" para reiniciar:');
+        if (codigo === 'CONFIRMAR') {
             localStorage.removeItem('votosBolsonaro'); 
             localStorage.removeItem('votosLula');
-            localStorage.removeItem('votosBrancos'); 
+            localStorage.removeItem('votosBrancoDs'); 
             localStorage.removeItem('votosNulos');
             localStorage.removeItem('contadorVotos'); 
             localStorage.removeItem('quantidadeEleitores');
