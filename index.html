@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css" type="text/css">
+</head>
+<body>
+
+    <div id="menu">
+        <button id="configurar" class="botao_menu" onclick="configurar()">CONFIGURAR</button>
+            <br>
+        <button id="reiniciar" class="botao_menu" onclick="reiniciar()">REINICIAR</button>
+            <br>
+        <button id="resultado" class="botao_menu" onclick="resultado()">RESULTADO</button>
+            <br>
+        <button id="detalhes" class="botao_menu" onclick="detalhes()">DETALHES</button>
+    </div>
+
+    <p id="tela" required></p>
+        <br>
+    <button class="botao" id="num1" onclick="inserir('1')">1</button>
+    <button class="botao" id="num2" onclick="inserir('2')">2</button>
+    <button class="botao" id="num3" onclick="inserir('3')">3</button>
+        <br>
+    <button class="botao" id="num4" onclick="inserir('4')">4</button>
+    <button class="botao" id="num5" onclick="inserir('5')">5</button>
+    <button class="botao" id="num6" onclick="inserir('6')">6</button>
+        <br>
+    <button class="botao" id="num7" onclick="inserir('7')">7</button>
+    <button class="botao" id="num8" onclick="inserir('8')">8</button>
+    <button class="botao" id="num9" onclick="inserir('9')">9</button>
+        <br>
+    <button class="botao" id="num0" onclick="inserir('0')">0</button>
+        <br><br>
+    <button id="branco" onclick="branco()">BRANCO</button>
+    <button id="corrige" onclick="corrige()">CORRIGE</button>
+    <button id="confirma" onclick="confirmar()">CONFIRMA</button>
+
+    <script src="script.js"></script>
+</body>
+</html>

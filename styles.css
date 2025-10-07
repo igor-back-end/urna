@@ -1,0 +1,95 @@
+body{
+    background-image: URL(https://static.vecteezy.com/ti/vetor-gratis/p3/1987871-abstrato-preto-listras-diagonal-fundo-gratis-vetor.jpg);
+    text-align: center;
+}
+
+#menu {
+    position: absolute;
+}
+
+.botao_menu {
+    width: 150px;
+    height: 50px;
+    background-color: grey;
+    color: black;
+    border-color: black;
+    text-align: left;
+}
+
+.botao_menu:hover {
+    background-color: rgb(54, 54, 54);
+}
+
+#tela{
+    background-color: white;
+    color: black;
+    width: 540px;
+    height: 150px;
+    font-size: 65px;
+    text-align: left;
+    margin: 5px;
+    padding: 5px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#tela:hover {
+    background-color: darkgray;   
+}
+        
+.botao {
+    background-color: black;
+    color: white;
+    border-color: white;
+    width: 180px;
+    height: 100px;
+    font-size: 65px;
+    text-align: left;
+}
+
+.botao:hover{
+    background-color: rgb(54, 54, 54);
+    color: white;
+}
+
+#branco{
+    background-color:white;
+    color: black;
+    border-color: white;
+    width: 200px;
+    height: 100px;
+    font-size: 30px;
+    text-align: center;
+}
+
+#branco:hover{
+    background-color: darkgray;
+}
+
+#corrige {
+    background-color: orangered;
+    color: black;
+    border-color: orangered;
+    width: 200px;
+    height: 100px;
+    font-size: 30px;
+    text-align: center;
+}
+        
+#corrige:hover{
+    background-color: orange;
+}
+
+#confirma{
+    background-color: darkgreen;
+    color: black;
+    border-color: green;
+    width: 200px;
+    height: 100px;
+    font-size: 30px;
+    text-align: center;
+}
+
+#confirma:hover{
+    background-color: green;
+}
